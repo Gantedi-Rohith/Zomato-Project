@@ -25,6 +25,9 @@ body {
   border-radius: 6px;
   cursor: pointer;
 }
+.button_primary:hover {
+  border: 2px solid black;
+}
 .navbar {
   display: flex;
   align-items: center;
@@ -170,6 +173,37 @@ input[type="text"] {
   background-color: rgba(224, 119, 119, 0.4);
   border: 2px solid #ff512f;
   border-radius: 3px;
+}
+.update_btn:hover {
+  border: 2px solid black;
+}
+
+/* Footer */
+
+.footer_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+  );
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+  border: 2px solid #ff512f;
+}
+
+.footer_zomato_img {
+  width: 100px;
+  height: 215px;
+}
+
+ul {
+  list-style: none;
+  color: #fff;
+  cursor: pointer;
 }
 
 /* Responsive */
