@@ -110,6 +110,7 @@ body {
     margin-top: 40px;
     display: flex;
     gap: 15px;
+    padding: 0 30px;
   }
   #pizza_card {
     margin-top: -20px;
@@ -135,6 +136,10 @@ body {
       #ff512f 100%
     );
     z-index: -3;
+    transform: skewY(-5deg);
+  }
+  .explore_menu_container {
+    margin-top: 30px;
   }
 }
 @media (min-width: 1020px) {
@@ -156,6 +161,9 @@ body {
   }
   .explore_menu_lists {
     gap: 40px;
+  }
+  .explore_menu_text {
+    font-size: 50px;
   }
 }
 @media (min-width: 1400px) {
